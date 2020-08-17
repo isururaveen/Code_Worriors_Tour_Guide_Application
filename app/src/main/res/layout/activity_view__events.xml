@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add_Event"
+    android:background="@drawable/background4">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/back_arrow"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="17dp"
+        android:contentDescription="@string/todo" />
+
+    <!--View Event-->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="225dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/view_events"
+        android:textSize="30sp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/GraphCard3"
+        android:layout_width="391dp"
+        android:layout_height="395dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="20dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <!--Place Name-->
+        <TextView
+            android:id="@+id/place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/place"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <!--Contact Us-->
+        <TextView
+            android:id="@+id/contact_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="80dp"
+            android:text="@string/contact_us"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!--Contact Us Description-->
+        <TextView
+            android:id="@+id/contact_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="110dp"
+            android:text="@string/contact_details"
+            android:textSize="14sp" />
+
+        <!--About US-->
+        <TextView
+            android:id="@+id/about_event"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="160dp"
+            android:text="@string/about_event"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <!--Location description-->
+        <TextView
+            android:id="@+id/event_details"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="200dp"
+            android:text="@string/event_details"
+            android:textSize="14sp" />
+
+        <!--Location-->
+        <TextView
+            android:id="@+id/loc_Info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="250dp"
+            android:text="@string/loc_info"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <!--Location Description-->
+        <TextView
+            android:id="@+id/loc_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="280dp"
+            android:text="@string/loc_description"
+            android:textSize="14sp" />
+
+        <!--Price-->
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="310dp"
+            android:text="@string/price"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!--Price Details-->
+        <TextView
+            android:id="@+id/price_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="340dp"
+            android:text="@string/price_details"
+            android:textSize="14sp" />
+
+        <!--Save Changes Button-->
+        <Button
+            android:id="@+id/add_btn"
+            android:layout_width="101dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="350dp"
+            android:background="@drawable/btn_background"
+            android:text="@string/edit" />
+
+        <Button
+            android:id="@+id/delete_btn"
+            android:layout_width="101dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="350dp"
+            android:background="@drawable/delete_btn"
+            android:text="@string/delete" />
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

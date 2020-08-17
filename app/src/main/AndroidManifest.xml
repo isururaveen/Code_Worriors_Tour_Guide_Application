@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tour_guide">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".signup"></activity>
+        <activity android:name=".activity_user_profile" />
+        <activity android:name=".activity_m_ake_your_review" />
+        <activity android:name=".activity_login" />
+        <activity android:name=".activity_editprofile" />
+        <activity android:name=".activity_customer_reviews" />
+        <activity android:name=".activity_main1" />
+        <activity android:name=".activity_main6" />
+        <activity android:name=".activity_main5" />
+        <activity android:name=".activity_main4" />
+        <activity android:name=".activity_main3" />
+        <activity android:name=".activity_main2" />
+        <activity android:name=".Add_Travel_Place" />
+        <activity android:name=".TravelingPlaces" />
+        <activity android:name=".View_Travel_Place" />
+        <activity android:name=".SigiriyaFortress" />
+        <activity android:name=".HistoricalPlaces" />
+        <activity android:name=".Edit_Travel_Place" />
+        <activity android:name=".View_Events" />
+        <activity android:name=".Event_places" />
+        <activity android:name=".Event_Description" />
+        <activity android:name=".Edit_Event" />
+        <activity android:name=".MainEvent" />
+        <activity android:name=".Ac"></activity>
+        <activity android:name=".Customer_reviews" />
+        <activity android:name=".editprofile" />
+        <activity android:name=".user_profile" />
+        <activity android:name=".activity_login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

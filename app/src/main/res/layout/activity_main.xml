@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="301dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5sp"
+                android:fontFamily="@font/aclonica"
+                android:padding="15dp"
+                android:text="@string/heading"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:layout_width="51dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="63dp"
+                app:tint="@color/black"
+                android:src="@drawable/ic_baseline_account_circle_24"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="0dp"
+                android:padding="15dp"
+                app:tint="@color/black"
+                android:src="@drawable/ic_baseline_menu_24"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/sri_lanka_travel">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="147dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:fontFamily="@font/aclonica"
+                android:padding="30dp"
+                android:text="@string/travel"
+                android:textColor="@color/white"
+                android:textSize="34sp"
+                android:textStyle="bold"></TextView>
+
+            <Button
+                android:id="@+id/btn_travel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="3dp"
+                android:background="#00000000"
+                android:padding="10dp"
+                android:text="@string/view"
+                android:textStyle="bold"
+                android:textColor="@color/white"></Button>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/hotel">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:fontFamily="@font/aclonica"
+                android:padding="30dp"
+                android:text="@string/hotel"
+                android:textColor="@color/white"
+                android:textSize="34sp"
+                android:textStyle="bold"></TextView>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="0dp"
+                android:background="#00000000"
+                android:padding="15dp"
+                android:text="@string/view"
+                android:textStyle="bold"
+                android:textColor="@color/white"></Button>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/events">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="147dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:fontFamily="@font/aclonica"
+                android:padding="30dp"
+                android:text="@string/events"
+                android:textColor="@color/white"
+                android:textSize="34sp"
+                android:textStyle="bold"></TextView>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/view"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="#00000000"
+                android:padding="15dp"
+                android:layout_alignParentBottom="true">
+            </Button>
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/review">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="157dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="0dp"
+                android:layout_marginBottom="-2dp"
+                android:fontFamily="@font/aclonica"
+                android:padding="30dp"
+                android:text="@string/review"
+                android:textColor="@color/white"
+                android:textSize="34sp"
+                android:textStyle="bold"></TextView>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="0dp"
+                android:background="#00000000"
+                android:padding="15dp"
+                android:text="@string/view"
+                android:textStyle="bold"
+                android:textColor="@color/white"></Button>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
